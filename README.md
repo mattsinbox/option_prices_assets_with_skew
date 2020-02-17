@@ -16,6 +16,6 @@ With today's computer power and data science techniques, I built a model that po
 This model uses bootstrapping sampling techniques to price the options.  It takes historical data and samples percentage moves.  It then iterates this process and calculates the option price for each iteration.   It saves each iteration to a list and calculates the mean.  It therefore calculates each option price independent of each other and based on the **ACTUAL** distribtion displayed in the prices.  
 
 # Other Uses
-This technique can be used to examine any sample set or group of prices.  Instead of making assumptions on the distribtion, one can bootstrap and calculate pvalues or other statistics straight from the data.  Normality does not need to assumed.  
+This technique can be used to examine any sample set or group of prices.  Instead of making assumptions on the distribtion, one can bootstrap and calculate p-values or other statistics straight from the data.  Normality does not need to assumed and therefore better insights are generated from the samples.  
 
 
